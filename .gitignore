@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Data files
+data/raw/
+data/interim/
+data/external/
+data/features/
+!data/external/README.md  # keep placeholder
+
+# Models
+models/
+!models/README.md  # keep placeholder
+
+# Results
+results/
+!results/README.md  # keep placeholder
+
+# Figures
+*.png
+*.jpg
+*.jpeg
+*.svg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache
+.cache/
+*.parquet
+*.feather
+*.h5
+
+# Environment & dependency files
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# VS Code
+.vscode/
